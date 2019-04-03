@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestão de Contas</title>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<form method="POST" action="" style="border:2px solid black; background-color:#D3D3D3; width:300px; margin-left:38%; padding:2%;">
+		<label for="tipo">Tipo de Conta:</label>
+		<input type="radio" id="juridica" name="conta" value="juridica" onclick="trocaConta('juridica')">Jurídica		
+		<input type="radio" id="fisica" name="conta" value="fisica" onclick="trocaConta('fisica')">Física
+		<br><br>
+		<label for="nome">Nome:</label>
+		<input type="text" name="nome" id="nome" >
+		<br><br>
+		<label for="cpf">CPF:</label>
+		<input type="text" name="cpf" id="cpf" >
+		<br><br>
+		<label for="cnpj">CNPJ:</label>
+		<input type="text" name="cnpj" id="cnpj" >
+		<br><br>
+		<label for="agencia">Agência:</label>
+		<input type="text" name="agencia" id="agencia" >
+		<br><br>
+		<label for="conta">Conta:</label>
+		<input type="text" name="conta" id="conta" >
+		<br><br>
+		<label for="digito">Dígito:</label>
+		<input type="text" name="digito" id="digito" >
+		<br><br>
+		<label for="tipo">Tipo de Transação:</label>
+		<input type="radio" id="depositar" name="conta" value="depositar">Depositar
+		<input type="radio" id="sacar" name="conta" value="sacar">Sacar
+		<br><br>
+		<label for="valor">Valor:</label>
+		<input type="text" name="valor" id="valor" >
+	</form>
+</body>
+</html>
